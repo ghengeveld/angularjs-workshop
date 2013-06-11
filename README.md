@@ -1,10 +1,10 @@
-# Joy of Coding AngularJS session
+# Workshop: Learning AngularJS
 
-Welcome to the Joy of Coding AngularJS session. We hope you have fun, check the
+Welcome to the Learning AngularJS workshop. I hope you have fun, check the
 *Usage* section below for installation instructions and instructions on loading
 the different environments.
 
-*- Kees, Robin, Jettro*
+*- Robin*
 
 ## Usage
 
@@ -15,12 +15,13 @@ dependencies are required:
 
 * Node.js, version 0.8+
 
-All other libraries, tools and packages are installed automatically - see
+All other libraries, tools and packages can be installed automatically - see
 'Installing dependencies' sections below for more information.
 
 ### Installing dependencies
 
-Install the npm packages the application depends on using the following command:
+Install the npm packages the application depends on using the following command
+from within the directory containing the workshop files:
 
 ```
 $ npm install
@@ -31,10 +32,16 @@ file. After this script has succesfully been run, you can run the application.
 
 ### Running the application
 
-You can start the application like this:
+On Unix systems you can start the application like this:
 
 ```
 $ ./script/start-server
+```
+
+On Windows systems you can start the application like this:
+
+```
+$ node ./script/codercontest-api.js
 ```
 
 Then navigate your browser to `http://localhost:9001/` to see the GUI
