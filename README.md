@@ -4,8 +4,6 @@ Welcome to the Learning AngularJS workshop. I hope you have fun, check the
 *Usage* section below for installation instructions and instructions on loading
 the different environments.
 
-*- Robin*
-
 ## Usage
 
 ### Prerequisites
@@ -85,6 +83,6 @@ $ git checkout .
 $ git checkout assignment1-your-first
 ```
 
-Also, don't forget to restart the server after each switch.
+Also, don't forget to restart the server after each switch to another branch.
 
 # Have fun!
