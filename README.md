@@ -14,6 +14,10 @@ In order to build, install and develop the application the following
 dependencies are required:
 
 * Node.js, version 0.8+
+* Git, for checking out the source code of this project. If you don't have Git
+  installed on your pc/laptop you can also just download the source by clicking
+  on download button in Github. This will download a zip file containing the
+  source.
 
 All other libraries, tools and packages can be installed automatically - see
 'Installing dependencies' sections below for more information.
@@ -80,5 +84,7 @@ $ git clean -f .
 $ git checkout .
 $ git checkout assignment1-your-first
 ```
+
+Also, don't forget to restart the server after each switch.
 
 # Have fun!
