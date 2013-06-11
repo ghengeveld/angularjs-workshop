@@ -1,11 +1,10 @@
 <div class="row-fluid" ng-controller="CodersController">
   <div class="span12">
 
-    There are {{ participants }} participants present at Joy of Coding
-    AngularJS session.
+    There are {{ participants }} participants present at this workshop.
 
     <div class="pull-right">
-        <input type="text" placeholder="Coder name..." class="input-medium search-query" ng-model="search.name">
+      <input type="text" placeholder="Coder name..." class="input-medium search-query" ng-model="search.name">
     </div>
 
     <div class="highlight page-header">
@@ -20,9 +19,9 @@
           <th></th>
         </tr>
       </thead>
-      <tr ng-repeat="coder in coders | orderBy:'name' | filter:search">
+      <tr ng-repeat="coder in coders">
         <td>{{ coder.votes }}</td>
-        <td><a href="#/coders/{{ coder.id }}">{{ coder.name | uppercase }}</a></td>
+        <td><a href="#/coders/{{ coder.id }}">{{ coder.name }}</a></td>
         <td><button ng-click="vote(coder)" class="btn btn-primary btn-mini">Vote!</button></td>
       </tr>
     </table>
